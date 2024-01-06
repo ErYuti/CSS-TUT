@@ -1,0 +1,75 @@
+<!-- creating a page laylout -->
+<!-- In your basic page there is a { header:main body:footer} is always there https://www.w3schools.com/html/html_layout.asp -->
+<!-- <details> - Defines additional details that the user can open and close on demand -->
+<!-- <summary> - Defines a heading for the <details> element -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Chapter3</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+    <body>
+      <!-- <header> - Defines a header for a document or a section -->
+      <header>
+        <!-- <nav> - Defines a set of navigation links -->
+        <nav>
+          Home
+          About
+          Process
+          Contact us
+        </nav>
+        This is header
+      </header>
+      <!-- main is main body of web/ section: article: aside this is the imp tag -->
+      <main>
+        <!-- <section> - a page section-->
+        <section>
+          <!-- <a href="url">link text</a> -->
+          <!-- <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a> -->
+          <!-- target attribute can have one of the following values: -->
+          <!-- _self - Default. Opens the document in the same window/tab as it was clicked -->
+          <!-- _blank - Opens the document in a new window or tab -->
+          <!-- _parent - Opens the document in the parent frame -->
+          <!-- _top - Opens the document in the full body of the window -->
+          <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+          <!-- when your img in floder than give /: "imagefoldeName/imgName.file" -->
+          <img src="smiley.gif" alt="HTML tutorial" width="42px">
+          <!-- forsetthe asolute rotion set height or width than other thing is automatically set -->
+        </section>
+        <section>
+          <!-- The <div> element is used as a container for other HTML elements. -->
+          <!-- div and span is a container: div/p : block element, take a space top,button,left,right used to mark up a part of a text / span:Inline Elements only takes up as much width as necessary -->
+          <div>
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London has over 13 million inhabitants.</p>
+          </div>
+
+          <div>
+            <h2>Oslo</h2>
+            <p>Oslo is the capital city of Norway.</p>
+          </div>
+          <span>
+            this a span 
+          </span>
+        </section>
+        <!-- <article> - Defines an independent, self-contained content -->
+        <article>
+          
+        </article>
+        <!-- <aside> - Defines content aside from the content (like a sidebar: ads) -->
+        <aside>
+          
+        </aside>
+        <p>This for main content</p>
+      </main>
+      
+      <!-- <footer> - Defines a footer for a document or a section -->
+      <footer>
+        This is footer
+      </footer>
+      
+    </body>
+</html>

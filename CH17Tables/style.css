@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+table{
+  /* The table above might seem small in some cases. If you need a table that should span the entire screen (full-width), add width: 100% to the <table> element: */
+  width: 100%;
+  height:20%;
+  /* The border-collapse property sets whether the table borders should be collapsed into a single border: */
+  border-collapse: collapse;
+  border: black solid;  
+  /* The text-align property sets the horizontal alignment (like left, right, or center) of the content in <th> or <td>. */
+  text-align:center;
+}
+
+th{
+  color:black;
+  padding: 15px;
+  background-color: powderblue;
+}
+
+tr,td{
+  /* To specify table borders in CSS, use the border property. */
+  border: 1px  red solid;
+  color:green;
+  background-color:yellow;
+  /* To control the space between the border and the content in a table, use the padding property on <td> and <th> elements: */
+  padding: 15px;
+}

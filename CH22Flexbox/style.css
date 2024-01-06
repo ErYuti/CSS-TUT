@@ -1,0 +1,54 @@
+
+*{
+  border: 2px solid black;
+}
+.container{
+  /* The container becomes flexible by setting the display property to flex: default rows*/
+   display: flex;
+   background-color: DodgerBlue;
+  /* The flex-wrap property specifies whether the flex items should wrap or not. */
+  flex-wrap: wrap;
+  /* The justify-content property is used to align the flex items: */
+  justify-content: center;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* The align-content property is used to align the flex lines. */
+  align-content: space-between;
+}
+.container1{
+  display: flex;
+  background-color: DodgerBlue;
+  /* The column value stacks the flex items vertically (from top to bottom): */
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: space-around;
+}
+.container2{
+  display: flex;
+  background-color: DodgerBlue;
+  /* The column-reverse value stacks the flex items vertically (but from bottom to top): */
+  flex-direction: column-reverse;
+  flex-wrap: wrap-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-content: stretch;
+}
+.container3{
+  display: flex;
+  background-color: DodgerBlue;
+  /* The row-reverse value stacks the flex items horizontally (but from right to left): */
+  flex-direction: row-reverse;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: center;
+}
+.box1{
+background-color: #f1f1f1;
+margin: 10px;
+padding: 20px;
+font-size: 30px;
+}
+

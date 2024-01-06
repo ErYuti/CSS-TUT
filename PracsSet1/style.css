@@ -1,0 +1,22 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* q1 */
+.red{
+  background-color: red;
+  color:white;
+}
+/* q2 */
+#head{
+  background-color: blue;
+}
+/* q3 q4 */
+.ig{
+  background-color:green;
+  color:purple;
+}
+.pg{
+  color:yellow;
+  
+}

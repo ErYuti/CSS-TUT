@@ -1,0 +1,25 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+header{
+   /* background color for HTML elements */
+  background-color:DodgerBlue;
+  /* color of text: */
+  color:Tomato;
+  /* color of borders */
+  border:2px solid Violet;
+}
+h1{
+  /* rgb(red, green, blue) */
+  background-color:rgb(255, 99, 71);
+}
+/* HEX Value
+In CSS, a color can be specified using a hexadecimal value in the form: */
+p{
+  background-color: #009dff;
+}
+/* HSL stands for hue, saturation, and lightness. */
+h2{
+  background:hsla(9, 100%, 64%, 0);
+}

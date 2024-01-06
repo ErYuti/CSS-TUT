@@ -1,0 +1,39 @@
+/* Mouse over the element below to see a 2D transformation 
+With the CSS transform property you can use the following 2D transformation methods:
+translate()
+rotate()
+scaleX()
+scaleY()
+scale()
+skewX()
+skewY()
+skew()
+matrix() */
+html {
+  height: 100%;
+  width: 100%;
+}
+.con{
+  background-color: red;
+  color: white;
+  height:100px;
+}
+.box{
+  border: 2px solid black;
+  /* The translate() method moves an element from its current position (according to the parameters given for the X-axis and the Y-axis) */
+  /* transform: translate(10px, 20px); */
+  /* The rotate() method rotates an element clockwise or counter-clockwise according to a given degree */
+  /* transform: rotate(10deg); */
+  /* The scale() method increases or decreases the size of an element (according to the parameters given for the width and height) */
+  /* transform: scale(0.5, 0.5); */
+  /* The scaleX() method increases or decreases the width of an element. */
+  /* transform: scaleX(1); */
+   /* transform: scaleY(2); */
+  /* The skewX() method skews an element along the X-axis by the given angle */
+  /* transform: skewX(20deg); */
+  /* transform: skewY(20deg); */
+  /* The skew() method skews an element along the X and Y-axis by the given angles. */
+  /* transform: skew(20deg, 10deg); */
+  /* The matrix() method combines all the 2D transform methods into one. */
+  transform: matrix(1, -0.3, 0, 1, 0, 0);
+}

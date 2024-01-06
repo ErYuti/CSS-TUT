@@ -1,0 +1,20 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* The list-style-type property specifies the type of list item marker. */
+li{
+  list-style: square;
+  /* list-style-type: circle; */
+  /* list-style-type: upper-roman; */
+  /* list-style-type: lower-alpha; */
+}
+/* The list-style-image property specifies an image as the list item marker: */
+/* list-style-image: url('sqpurple.gif'); */
+
+/* list-style-position property specifies the position of the list-item markers (bullet points). */
+/* list-style-position: outside; */
+/* list-style-position: inside; */
+
+/* list-style property is a shorthand property. It is used to set all the list properties in one declaration: */
+/* list-style: square inside url("sqpurple.gif"); */

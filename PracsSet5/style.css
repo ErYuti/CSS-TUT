@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* q1 */
+*{
+  margin: 0;
+  padding: 0;
+}
+li{
+  display: inline-block;
+  font-size:5vw
+}
+/* q2 */
+header{
+  background-color: black;
+  color: white;
+  padding: 25px;
+  position: sticky;
+  top: 0
+  /* z-index:1; */
+}
+.box{
+  min-height: 2233px;
+  background-color:red;
+}

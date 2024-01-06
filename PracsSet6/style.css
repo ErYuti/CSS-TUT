@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: forestgreen;
+  color:white
+}
+ul{
+  
+  display: flex;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+.right{
+  height: 80vh;
+  width:40vw;
+  background-color: red;
+}
+.left{
+  height: 80vh;
+  width:40vw;
+  background-color: blue;
+}

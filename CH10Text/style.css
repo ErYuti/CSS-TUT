@@ -1,0 +1,79 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.ex{
+  /* Text Color */
+  color: red;
+
+  /* text-align property is used to set the horizontal alignment of a text. */
+  /* text-align: center; */
+  /* text-align: left; */
+  /* text-align: right; */
+  text-align: justify;
+
+  /* text-align-last property specifies how to align the last line of a text. */
+  /* text-align-last: right; */
+  text-align-last: center;
+  /* text-align-last: justify; */
+
+  /* direction and unicode-bidi properties can be used to change the text direction of an element: */
+  /* direction: rtl; */
+  unicode-bidi: bidi-override;
+
+  /* vertical-align property sets the vertical alignment of an element. */
+  vertical-align: baseline;
+  /* vertical-align: text-top; */
+  /* vertical-align: text-bottom; */
+  /* vertical-align: super; */
+  /* vertical-align: sub; */
+
+
+  /* text-decoration-line: text-decoration-line property is used to add a decoration line to text.
+  text-decoration-color:text-decoration-color property is used to set the color of the decoration line.
+  text-decoration-style:text-decoration-style property is used to set the style of the decoration line.
+  text-decoration-thickness:text-decoration-thickness property is used to set the thickness of the decoration line.
+  text-decoration
+ */
+}
+
+.ex1{
+  /* text-decoration property is a shorthand property for:
+  text-decoration-line (required)
+  text-decoration-color (optional)
+  text-decoration-style (optional)
+  text-decoration-thickness (optional) */
+  text-decoration: underline red double 5px;
+}
+
+/* All links in HTML are underlined by default. Sometimes you see that links are styled with no underline. The text-decoration: none; is used to remove the underline from links, like this: */
+a {
+  text-decoration: none;
+}
+
+/* text-transform property is used to specify uppercase and lowercase letters in a text. */
+p{
+  /* text-transform: uppercase; */
+  /* text-transform: lowercase; */
+  text-transform: capitalize;
+}
+
+/* /* Text Spacing */
+
+h1{
+  /* text-indent property is used to specify the indentation of the first line of a text:*/ 
+  text-indent: 50px;
+  /* letter-spacing property is used to specify the space between the characters in a text. */
+  letter-spacing: 5px;
+  /* line-height property is used to specify the space between lines: */
+  line-height: 0.8;
+  /* word-spacing property is used to specify the space between the words in a text. */
+  word-spacing: 10px;
+  /* white-space property specifies how white-space inside an element is handled. */
+  white-space: nowrap;
+
+
+  /* text-shadow property adds shadow to text. */
+  /* horizontal shadow (2px) and the vertical shadow (2px) ,blur effect , color: ; */
+  text-shadow: 2px 2px 5px red;
+}

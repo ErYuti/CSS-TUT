@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+*{
+  margin: 70px;
+  padding: 0px;
+}
+.box{
+  /* the overflow is visible, meaning that it is not clipped and it renders outside the element's box: */
+  background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid;
+  overflow: visible;
+}
+.box1{
+  /* With the hidden value, the overflow is clipped, and the rest of the content is hidden: */
+  background-color: red;
+  width: 200px;
+  height: 65px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+.box2{
+  /* Setting the value to scroll, the overflow is clipped and a scrollbar is added to scroll inside the box. Note that this will add a scrollbar both horizontally and vertically (even if you do not need it */
+  background-color: green;
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  overflow: scroll;
+}
+.box3{
+  /* The auto value is similar to scroll, but it adds scrollbars only when necessary: */
+  background-color: yellow;
+  width: 200px;
+  height: 65px;
+  border: 1px solid black;
+  overflow: auto;
+}
+/* The overflow-x and overflow-y properties specifies whether to change the overflow of content just horizontally or vertically (or both):
+overflow-x specifies what to do with the left/right edges of the content.
+overflow-y specifies what to do with the top/bottom edges of the content. */

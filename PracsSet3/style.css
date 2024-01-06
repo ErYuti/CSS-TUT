@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* q1 */
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: #d6f0f0;
+  padding: 20px;
+  height: 60px;
+  background: black;
+  color: white;
+}
+.box{
+  background-color: #c2d68a;
+  margin: 50px;
+  padding: 10px;
+  height: 90vh;
+}
+footer{
+  padding:10px;
+  margin: 10px;
+  background-color: #007d80;
+}
+.center{
+  text-align: center;
+}

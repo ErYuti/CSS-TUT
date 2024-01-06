@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left). */
+/* margin: 25px 50px 75px 100px; */
+p {
+  background-color: blue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 15px;
+  margin-left: 80px;
+
+  /* set the margin property to auto to horizontally center the element within its container.
+  margin:auto */
+
+
+  /* Sometimes two margins collapse into a single margin. */
+  /* h1 {
+    margin: 0 0 50px 0;
+  }
+
+  h2 {
+    margin: 20px 0 0 0;
+  } */
+}
+
+/* Padding is used to create space around an element's content, inside of any defined borders. */
+div {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  /* Top right botton left */
+    /* padding: 25px 50px 75px 100px; */
+  
+}
+
+
+/* CSS height and width Values
+auto - This is default. The browser calculates the height and width
+inherit - The height/width will be inherited from its parent value */
+h1{
+  height: 200px;
+  width: 50%;
+  /* min-height min-width max-height max-width */
+  background-color: powderblue;
+}

@@ -1,0 +1,19 @@
+html{
+width:100% ;
+height:100%;
+}
+/* Relative lenght
+em:unit relative to the parent font size
+rem:unit relative to the root font size <html> tag
+vw-unit relative to the viewport width
+vh-unit relative to the viewport height
+%- unit relative to the parent element 
+*/
+.box{
+  background-color: red;
+  font-size: 1em;
+  width:20vw;
+  height:30vh;
+}
+
+

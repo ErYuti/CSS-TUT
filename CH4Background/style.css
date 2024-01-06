@@ -1,0 +1,58 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* The background-color property specifies the background color of an element. */
+div{
+  background-color: #4141d2;
+  opacity: 0.3;
+}
+/* /* The background-image property specifies an image to use as the background of an element. */
+/* the background-image property repeats an image both horizontally and vertically. */
+header{
+  background-image: url("backgroud.jpg");
+  /* /* If the image above is repeated only horizontally  */
+  background-repeat: repeat-x;
+  /* vertical- background-repeat: repeat-y; */
+   /* background-repeat:no repeat; */
+
+  
+  /* background-position property is used to specify the position of the background image. */
+    background-position: right top;
+  /* background-position: left top; */
+
+  
+  /* The background-attachment property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page): */
+  background-attachment: fixed;
+  /* background-attachment: scroll; */
+
+  
+  /* To shorten the code, it is also possible to specify all the background properties in one single property. This is called a shorthand property. */
+    /* background: #ffffff url("img_tree.png") no-repeat right top; */
+}
+main{
+   width : 1220px;
+  height: 900px ; 
+  /* background: size; */
+  background-image: url("backgroud.jpg");
+  /* fits & no empty space remain */
+  background-size: cover;
+  /* fits & image is fully visible */
+  /* background-size: contain; */
+  /* disply in original size */
+  /* background-size: auto; */
+  /* background-size: width: height: ;;; */
+  
+}
+footer{
+  background-color: red;
+  /* background-image:url("") ; */
+  /* background-position: top center; */
+  /* background-repeat: repeat; */
+  /* background-size: auto; */
+  /* background-attachment: fixed; */
+  /* background-clip: ; */
+  /* backface-visibility: ; */
+  /* background-origin: ; */
+  /* background-blend-mode: ; */
+}

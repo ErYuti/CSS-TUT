@@ -1,0 +1,49 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.ex1 {
+/* for outline-style
+p.dotted {outline-style: dotted;}
+p.dashed {outline-style: dashed;}
+p.solid {outline-style: solid;}
+p.double {outline-style: double;}
+p.groove {outline-style: groove;}
+p.ridge {outline-style: ridge;}
+p.inset {outline-style: inset;}
+p.outset {outline-style: outset;}
+ */
+  outline-style: outset;
+
+  
+/* The outline-width property specifies the width of the outline, and can have one of the following values:
+thin (typically 1px)
+medium (typically 3px)
+thick (typically 5px)
+A specific size (in px, pt, cm, em, etc)*/
+  outline-width: thin;
+
+  
+/* outline-color property is used to set the color of the outline.
+name - specify a color name, like "red"
+HEX - specify a hex value, like "#ff0000"
+RGB - specify a RGB value, like "rgb(255,0,0)"
+HSL - specify a HSL value, like "hsl(0, 100%, 50%)"
+invert - performs a color inversion (which ensures that the outline is visible, regardless of color background)*/
+  outline-color: grey;
+
+  
+  /* The outline-offset property adds space between an outline and the edge/border of an element. The space between an element and its outline is transparent. */
+  outline-offset: 15px;
+  border: 5px solid #743969;
+}
+
+/* outline property is a shorthand property for setting the following individual outline properties:
+
+outline-width
+outline-style (required)
+/* outline-color  */
+.ex2 {
+  outline: thick solid red;
+  outline-offset: 5 px;
+}

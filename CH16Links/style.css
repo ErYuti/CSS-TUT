@@ -1,0 +1,38 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* The text-decoration property is mostly used to remove underlines from links: */
+/* unvisited link */
+/* The background-color property can be used to specify a background color for links: */
+/* This example demonstrates a more advanced example where we combine several CSS properties to display links as boxes/buttons: */
+a:link.link {
+  color: red;
+  text-decoration: none;
+  background-color: yellow;
+}
+
+/* visited link */
+a:visited.visited{
+  color: green;
+}
+
+/* mouse over link */
+a:hover.hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active.active{
+  color: blue;
+}
+/* button */
+/* a:link, a:visited */
+.button {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}

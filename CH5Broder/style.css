@@ -1,0 +1,53 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* /* dotted - Defines a dotted border */
+p{
+  border-style: dotted;
+  /* border-width property specifies the width of the four borders/The width can be set as a specific size (in px, pt, cm, em, etc) or by using one of the three pre-defined values: thin, medium, or thick: */
+   border-width: 5px;
+  /* border-color property is used to set the color of the four borders */
+  border-color: red;
+  /* border-radius property is used to add rounded borders to an element: */
+  border-radius: 5px;
+}
+/* dashed - Defines a dashed border */
+h1{
+  border-style: dashed;
+  
+}
+/* solid - Defines a solid border */
+h2{
+  border-style: solid;
+}
+/* double - Defines a double border */
+h3{
+  border-style: double;
+}
+/* groove - Defines a 3D grooved border. The effect depends on the border-color value */
+h4{
+  border-style: groove;
+}
+/* ridge - Defines a 3D ridged border. The effect depends on the border-color value */
+h5{
+  border-style: ridge;
+}
+/* inset - Defines a 3D inset border. The effect depends on the border-color value */
+h6{
+  border-style: inset;
+}
+/* outset - Defines a 3D outset border. The effect depends on the border-color value */
+nav{
+  border-style: outset;
+}
+/* none - Defines no border */
+div{border-style: none;}
+/* hidden - Defines a hidden border   */
+main{
+  border-style: hidden;
+    }
+/* mix */
+.mix {
+  border-style: dotted dashed solid double;
+}

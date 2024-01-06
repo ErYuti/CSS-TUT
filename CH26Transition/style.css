@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* transition
+transition-delay
+transition-duration
+transition-property
+transition-timing-function
+ */
+.box{
+  width: 100px;
+  height: 100px;
+  background: red;
+  /* transition: width 2s */
+  transition: width 2s, height 4s;
+  /* The transition-timing-function property specifies the speed curve of the transition effect */
+  /* transition-timing-function: linear;
+  transition-timing-function: linear;
+  transition-timing-function: ease;
+  transition-timing-function: ease-in;
+  transition-timing-function: ease-out;
+  transition-timing-function: ease-in-out; */
+  /* transition-delay property specifies a delay (in seconds) for the transition effect. */
+  /* transition-delay: 4s; */
+}
+.box:hover {
+  width: 300px;
+  height: 300px;
+}

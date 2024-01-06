@@ -1,0 +1,38 @@
+<!-- Three ways are used to add css
+1.<style> tag 2.Inline css 3.External css-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CSS 01</title>
+  <!-- 1.<style tag -->
+  <!-- <style>
+    #frist{color:blue;}
+    #second{text-color:red;}
+    .red {color:green;}
+    .bg-blue {background-color: red;}
+    .border-purple{border-color: darkred;}
+  </style> -->
+  <!-- link href="style.css" rel="stylesheet" External type of css -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <!-- id used for unique / id used for one only -->
+  <!-- style="background-color: red; Inline type css -->
+  <div id="first" style="background-color: blue;">
+    first
+  </div>
+  <div id="second">
+    second
+  </div>
+  <!-- class used for one than more -->
+  <section class="red">
+    red
+  </section>
+  <section class="red bg-blue border-purple">
+    red bg-blue border-purple
+  </section>
+</body>
+</html>

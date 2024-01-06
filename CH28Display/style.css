@@ -1,0 +1,24 @@
+/* block-level element ALWAYS starts on a new line and takes up the full width available <div>
+<h1> - <h6><p><form><header><footer><section>
+An inline element DOES NOT start on a new line and only takes up as much width as necessary.
+<span><a><img>*/
+.Box{
+  width:200px ;
+  height:80px ;
+  background-color: red;
+  /* take only required element -no width: height top padding and margin;*/
+  /* display: inline; */
+  /* display: block; */
+  /* same as iline and set margine and padding and width: height: ;; */
+  display:inline-block;
+  /*  element remove from thw document flow its is not blocked*/
+  /* display: none; */
+  /* element is hidden but it's space is reserved */
+  /* visibility:hidden; also hides an element. */
+}
+.Box1{
+  width: 231px;
+  height:80px ;
+  background-color: blue;
+  display: inline-block;
+}

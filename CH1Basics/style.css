@@ -1,0 +1,9 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* external type */
+#second{text-color:red;}
+.red {color:green;}
+.bg-blue {background-color: red;}
+.border-purple{border-color: darkred;}

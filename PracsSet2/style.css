@@ -1,0 +1,23 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* q1 */
+ul{
+  background-color: black;
+  color: white;
+}
+/* q2 */
+.main{
+ color: red;
+}
+/* q3 q4 */
+.m{
+  background-image:url("unicorn2.png");
+  background-size: width 1200px; height: 120px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+n.{
+  background: red url("") no-repeat scroll width 120px ;
+}
